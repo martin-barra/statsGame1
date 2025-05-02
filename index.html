@@ -1,13 +1,17 @@
-<!doctype html>
-<html lang="en">
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Dashboard Firebase</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <h1>Estadísticas del Juego</h1>
+
+    <!-- ESTE ES EL ELEMENTO QUE NECESITA EL GRÁFICO -->
+    <canvas id="scoreChart" width="400" height="200"></canvas>
+
+    <!-- El script debe ir AL FINAL del body -->
+    <script type="module" src="/src/main.js" ></script>
   </body>
 </html>
